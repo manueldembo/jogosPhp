@@ -1,0 +1,77 @@
+body {
+  background-color: #ddd;
+  font-family: tahoma;
+}
+div#corpo {
+  width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 30px #777;
+}
+header{
+  font-size: 10px;
+  text-align: right;
+}
+form#busca{
+  font-size: 12px;
+  text-align: right;
+}
+table.listagem {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+table.listagem tr {
+  height: 50px;
+}
+table.listagem td {
+  padding: 10px;
+}
+table.listagem tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+table.listagem td:nth-child(1) {
+  width: 50px;
+}
+table.listagem td:nth-child(3) {
+  width: 90px;
+}
+img.mini {
+  width: 50px;
+}
+img.full{
+  height: 400px;
+}
+footer{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+div.sucesso, div.aviso, div.erro{
+  padding: 5px 7px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+}
+div.sucesso{
+  color: rgb(74, 116, 67);
+  background-color: rgb(226, 239, 218);
+}
+div.sucesso span, div.aviso span, div.erro span{
+  vertical-align: top;
+  position: relative;
+  top: 7px;
+}
+.aviso{
+  background-color: rgb(251, 248, 229);
+  color: rgb(134, 87, 66)
+}
+.erro{
+  background-color: rgb(239, 223, 222);
+  color: rgb(157, 75, 69);
+}
+.icone{
+  position: relative;
+  width: 30px;
+  margin-right: 5px;
+}

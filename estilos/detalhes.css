@@ -1,0 +1,7 @@
+table.detalhes {
+  width: 100%;
+}
+table.detalhes td {
+  padding: 10px;
+  vertical-align: top;
+}
